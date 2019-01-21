@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		547F0E7721F5729C0012156B /* Jenkinsfile in Resources */ = {isa = PBXBuildFile; fileRef = 547F0E7621F5729C0012156B /* Jenkinsfile */; };
 		A8EAAFF71E43E03E008F60E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EAAFF61E43E03E008F60E1 /* AppDelegate.swift */; };
 		A8EAAFF91E43E03E008F60E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EAAFF81E43E03E008F60E1 /* ViewController.swift */; };
 		A8EAAFFC1E43E03E008F60E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8EAAFFA1E43E03E008F60E1 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		547F0E7621F5729C0012156B /* Jenkinsfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Jenkinsfile; sourceTree = "<group>"; };
 		A8EAAFF31E43E03E008F60E1 /* shakeMeSilly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shakeMeSilly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8EAAFF61E43E03E008F60E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8EAAFF81E43E03E008F60E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		A8EAAFEA1E43E03E008F60E1 = {
 			isa = PBXGroup;
 			children = (
+				547F0E7621F5729C0012156B /* Jenkinsfile */,
 				A8EAAFF51E43E03E008F60E1 /* shakeMeSilly */,
 				A8EAAFF41E43E03E008F60E1 /* Products */,
 			);
@@ -129,6 +132,7 @@
 			files = (
 				A8EAB0011E43E03E008F60E1 /* LaunchScreen.storyboard in Resources */,
 				A8EAAFFE1E43E03E008F60E1 /* Assets.xcassets in Resources */,
+				547F0E7721F5729C0012156B /* Jenkinsfile in Resources */,
 				A8EAB0091E43E0B2008F60E1 /* edosz.ttf in Resources */,
 				A8EAAFFC1E43E03E008F60E1 /* Main.storyboard in Resources */,
 			);
@@ -306,6 +310,7 @@
 				A8EAB0071E43E03E008F60E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
